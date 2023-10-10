@@ -42,4 +42,6 @@ int main()
             cout << endl;
 
     } while (q == 'y');
+
+    return 0;
 }
