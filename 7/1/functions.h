@@ -4,7 +4,8 @@ using namespace std;
 
 
 /**
- * Creates an array of integers either by manual input or by generating random numbers.
+ * @brief Creates an array of integers either by manual input or by generating random numbers.
+ * 
  * @param array Pointer to the array to be created.
  * @param length Length of the array to be created.
 */
@@ -12,7 +13,7 @@ void createArray(int * array, const int length);
 
 
 /**
- * Counts the number of occurrences of an element in an array.
+ * @brief Counts the number of occurrences of an element in an array.
  * 
  * @param array The array to count elements in.
  * @param index The index of the element to count.
@@ -22,7 +23,7 @@ int countElement(int * array, const int index);
 
 
 /**
- * Removes extra (>2) occurrences of the element from the array.
+ * @brief Removes extra (>2) occurrences of the element from the array.
  * 
  * @param array The array to remove elements from.
  * @param length The length of the integer array.
@@ -33,9 +34,7 @@ void removeElement(int *& array, const int length, const int element, const int 
 
 
 /**
- * @brief Removes extra elements from an array.
- * 
- * This function removes extra elements from an array by checking the number of occurrences of each element.
+ * @brief Removes extra elements from an array by checking the number of occurrences of each element.
  * If an element occurs more than twice, it removes the extra occurrences and recursively calls itself with the updated array.
  * 
  * @param array A pointer to the array to be modified.

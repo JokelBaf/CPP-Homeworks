@@ -4,14 +4,15 @@
 using namespace std;
 
 /**
- * Creates an array of integers either by manual input or by generating random numbers.
+ * @brief Creates an array of integers either by manual input or by generating random numbers.
+ * 
  * @param array Pointer to the array to be created.
  * @param length Length of the array to be created.
 */
 void createArray(int * array, const int length);
 
 /**
- * Counts the number of even integers in an array.
+ * @brief Counts the number of even integers in an array.
  *
  * @param array A pointer to an array of integers.
  * @param length The length of the array.
@@ -20,7 +21,7 @@ void createArray(int * array, const int length);
 int getEvensCount(int *& array, int length);
 
 /**
- * Adds all even numbers from the given array to the end of the container array.
+ * @brief Adds all even numbers from the given array to the end of the container array.
  * 
  * @param container A pointer to the container array.
  * @param array A pointer to the array containing the numbers to be added.
