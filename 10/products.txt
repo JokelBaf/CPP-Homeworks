@@ -1,0 +1,41 @@
+product: IPhoneXS
+price: 15000
+quantity: 13
+manufacturer: Apple
+
+=========================
+
+product: RTX3080
+price: 23000
+quantity: 48
+manufacturer: Nvidia
+
+=========================
+
+product: Book
+price: 100
+quantity: 582
+manufacturer: BestBooks
+
+=========================
+
+product: IphoneX
+price: 11000
+quantity: 7
+manufacturer: Apple
+
+=========================
+
+product: Printer
+price: 15000
+quantity: 17
+manufacturer: PrinterL
+
+=========================
+
+product: Printer2
+price: 18000
+quantity: 43
+manufacturer: PrinterL
+
+=========================
